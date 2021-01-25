@@ -1,167 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<title>Contacts Us</title>
-<meta charset="utf-8">
-<meta name = "format-detection" content = "telephone=no" />
-<link rel="icon" href="images/favicon.ico" type="image/x-icon">
-<link rel="stylesheet" href="css/grid.css">
-<link rel="stylesheet" href="css/style.css">
-
-<script src="js/jquery.js"></script>
-<script src="js/jquery-migrate-1.2.1.js"></script>
-<script src="js/script.js"></script>
- <!--[if (gt IE 9)|!(IE)]><!-->
-<script src="js/wow.js"></script>
-<script>
-		$(document).ready(function () {
-			if ($('html').hasClass('desktop')) {
-				new WOW().init();
-			}
-		});
-	</script>
-<!--<![endif]-->
-<!--[if lt IE 8]>
-	<div style=' clear: both; text-align:center; position: relative;'>
-	 <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
-		 <img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
-	 </a>
-	</div>
-	<![endif]-->
-<!--[if lt IE 9]>
+	<head>
+		<title>Contacts Us</title>
+		<meta charset="utf-8">
+		<meta name = "format-detection" content = "telephone=no" />
+		<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+		<link rel="stylesheet" href="css/grid.css">
+		<link rel="stylesheet" href="css/style.css">
+		<script src="js/jquery.js"></script>
+		<script src="js/jquery-migrate-1.2.1.js"></script>
+		<script src="js/script.js"></script>
+		<!--[if (gt IE 9)|!(IE)]><!-->
+		<script src="js/wow.js"></script>
+		<script>
+			$(document).ready(function () {
+				if ($('html').hasClass('desktop')) {
+					new WOW().init();
+				}
+			});
+		</script>
+		<!--<![endif]-->
+		<!--[if lt IE 8]>
+		<div style=' clear: both; text-align:center; position: relative;'>
+			<a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+			<img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+			</a>
+		</div>
+		<![endif]-->
+		<!--[if lt IE 9]>
 		<script src="js/html5shiv.js"></script>
 		<link rel="stylesheet" type="text/css" media="screen" href="css/ie.css">
-	<![endif]-->
-</head>
-<body class="index-4">
-<!--==============================header=================================-->
-<header id="header">
-  <div id="stuck_container">
-    <div class="container">
-      <div class="row">
-        <div class="grid_12">
-          <h1><a href="index.html">Nan Tarlow, Ph.D. </a><span>Licensed Clinic​al Psychologist <strong style="color: #333;;">(PSY11046)</strong></span></h1>
-          <nav>
-            <ul class="sf-menu">
-              <li><a href="index.html">Home</a> </li>
-              <li><a href="about.html">About Dr. Tarlow </a></li>
-              <li class="current"><a href="contact.html">Contact</a></li>
-            </ul>
-          </nav>
-        </div>
-      </div>
-    </div>
-  </div>
-</header>
-<!--=======content================================-->
-<section id="content">
-  <div class="full-width-container block-1">
-    <div class="container">
-      <div class="row">
-        <div class="grid_12">
-          <header>
-            <h2><span> Locations</span></h2>
-          </header>
-          <div class="content_map">
-      <div class="div3"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3306.364658516819!2d-118.4807838851654!3d34.034515880610805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2bb49333f2e2b%3A0x6f7dc8ed9553bbd0!2s2444+Wilshire+Blvd+%23508%2C+Santa+Monica%2C+CA+90403%2C+USA!5e0!3m2!1sen!2sin!4v1529294200205" width="500" height="400" frameborder="0" style="border:0" allowfullscreen></iframe> </div>
-      
-      
- <div class="div2"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3301.6801425479307!2d-118.65492118516165!3d34.1545244805782!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c29e137f1ed7a7%3A0x95924c7b44836ff6!2s5000+Parkway+Calabasas+%23218%2C+Calabasas%2C+CA+91302%2C+USA!5e0!3m2!1sen!2sin!4v1529294740067" width="500" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
-       
-        </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="full-width-container block-2">
-    <div class="container">
-      <div class="row">
-        <div class="grid_5">
-          <header>
-            <h2><span>Contact Form</span></h2>
-          </header>
-          <form action="contact1.php" name="form1" method="post" id="contact_form">
-            <script language="JavaScript" src="js/gen_validatorv4.js" type="text/javascript"></script>
-            <input name="name" type="text" class="input6" placeholder="Name" data-placeholder="Name">
-            <input name="phone" type="text" class="input6" placeholder="Phone" data-placeholder="Phone">
-            <input name="email" type="text" class="input6" placeholder="Email" data-placeholder="Email">
-            <textarea name="msg" class="input7" placeholder="Comments" data-placeholder="Comments"></textarea>
-            
-            <br>
-            <br>
-            <input name="submit" type="submit" value="Submit" class="submit1 btn">
-            <div class="clear"></div>
-          </form>
-          <script language="JavaScript" type="text/javascript" xml:space="preserve">
-	  
-  var frmvalidator  = new Validator("form1");
-   
-  frmvalidator.addValidation("name","req","Please enter your  Name");
-  
-   frmvalidator.addValidation("phone","req","Please enter your Phone");
-   
-    frmvalidator.addValidation("email","req","Please enter your Email");
-  frmvalidator.addValidation("email","email");
-    
-   frmvalidator.addValidation("msg","req","Please enter Comments");
-   
-     frmvalidator.addValidation("check_captcha","req","Please enter Captcha");
-
-
-</script>
-        </div>
-        <div class="grid_6 preffix_1">
-          <div>
-            <hader>
-              
-            </hader>
-             
-          </div>
-          <h3>Office Addresses</h3>
-          <div class="grid_3 alpha">
-            <div class="address">
-              <p>2444 Wilshire Blvd.<br>
-                Suite 508<br>
-                Santa Monica, CA 90403</p>
-            </div>
-          </div>
-          <div class="grid_3">
-            <div class="address">
-              <p>5000 N. Parkway Calabasas<br>
-                Suite 218<br>
-                Calabasas, CA 91302</p>
-              </p>
-            </div>
-          </div>
-          <div class="grid_5">
-            <div class="address">
-              <h3>Contact Info</h3>
-              <p style=" text-align:center"> Tel. 818-222-0294<br>
-                Fax 818-477-0666<br>
-                <a href="mailto:nantarlow@gmail.com">nantarlow@gmail.com</a> </p>
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!--=======footer=================================-->
-<footer class="footer1">
-  <div class="container">
-    <div class="row">
-      <div class="grid_12 copyright">
-        
-                          
-        <!--{%FOOTER_LINK} -->
-      </div>
-    </div>
-  </div>
-  <div class="footer_bottom">
-    <p>© 2018 drnantarlow . All Rights Reserved | Design by <a href="http://webtakersit.com/" target="_blank">webtakersit</a></p>
-  </div>
-</footer>
-</body>
+		<![endif]-->
+	</head>
+	<body class="index-4">
+		<!--==============================header=================================-->
+		<header id="header">
+			<div id="stuck_container">
+				<div class="container">
+					<div class="row">
+						<div class="grid_12">
+							<h1><a href="index.html">Nan Tarlow, Ph.D. </a><span>Licensed Clinic​al Psychologist <strong style="color: #333;;">(PSY11046)</strong></span></h1>
+							<nav>
+								<ul class="sf-menu">
+									<li><a href="index.html">Home</a> </li>
+									<li><a href="about.html">About Dr. Tarlow </a></li>
+									<li class="current"><a href="contact.html">Contact</a></li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<!--=======content================================-->
+		<section id="content">
+			<div class="full-width-container block-1">
+				<div class="container">
+					<div class="row">
+						<div class="grid_12">
+							<header>
+								<h2><span> Locations</span></h2>
+							</header>
+							<div class="content_map" style="text-align: center;">
+								<div class="div2" style="float: initial; display:inline-block"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3306.364658516819!2d-118.4807838851654!3d34.034515880610805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2bb49333f2e2b%3A0x6f7dc8ed9553bbd0!2s2444+Wilshire+Blvd+%23508%2C+Santa+Monica%2C+CA+90403%2C+USA!5e0!3m2!1sen!2sin!4v1529294200205" width="500" height="400" frameborder="0" style="border:0" allowfullscreen></iframe> </div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="full-width-container block-2">
+				<div class="container">
+					<div class="row">
+						<div class="grid_6" style="text-align: center;float: initial; margin: auto;">
+              <h3>Office Addresses</h3>
+              <div class="address">
+                <p>2444 Wilshire Blvd.<br>
+                  Suite 508<br>
+                  Santa Monica, CA 90403
+                </p>
+              </div>
+							<div class="grid_5">
+								<div class="address">
+									<h3>Contact Info</h3>
+									<p style=" text-align:center"> Tel. 818-222-0294<br>
+										Fax 818-477-0666<br>
+										<a href="mailto:nantarlow@gmail.com">nantarlow@gmail.com</a> 
+									</p>
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--=======footer=================================-->
+		<footer class="footer1">
+			<div class="container">
+				<div class="row">
+					<div class="grid_12 copyright">
+						<!--{%FOOTER_LINK} -->
+					</div>
+				</div>
+			</div>
+		</footer>
+	</body>
 </html>
